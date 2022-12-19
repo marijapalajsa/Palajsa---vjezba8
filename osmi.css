@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0;
+    background-image: url(slike/poz.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header{
+    background-color:rgba(141, 41, 132, 0.852);
+    height: 820px;
+}
+
+h1 {
+    font-family: verdana;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    color: azure;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 3px black;
+}
+
+main {
+    padding: 100px;
+    background-image: url(slike2/fotic2.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 750px;
+    height: 532px;
+}
+
+main iframe {
+    display: block;
+    width: 835px;
+    height: 400px;
+    margin: 235px 100px;
+}
+
+aside {
+    position: absolute;
+    left: 150px;
+    padding: 100px 0 0;
+    width:200px;
+}
+
+aside a, aside img {
+    display: block;
+    width: 100%;
+
+}
+aside a {
+    margin-bottom: 19px;
+    border: 3px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    box-shadow: 6px 6px 6px  #6784d6e3;
+    height: 100px;
+    overflow: hidden;
+}
+
+#link a:hover {
+    color:  #6784d6e3;
+    text-decoration: underline;
+}
+
+#link  a {
+    margin: auto 150px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    
+
+}
